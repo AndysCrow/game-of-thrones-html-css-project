@@ -1,0 +1,456 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+}
+
+h1{font-size: 2.7em;}
+h2{font-size: 2.2em;}
+h3{font-size: 1.7em;}
+p{font-size: 1.2em;}
+
+.container{
+    max-width: 1400px;
+}
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+button{
+    font-size: 1.2em;
+    padding: 12px 14px;
+    margin: 16px 0;
+    font-weight: 600;
+    color: white;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(216, 114, 77);
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+header a{
+    color: black;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: coral;
+    cursor: pointer;
+}
+
+header p{
+    margin: 0;
+    padding: 30px 0;
+    color: coral;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+
+#que-es .container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    align-items: center;
+    
+}
+
+.acent-color{
+    color: coral;
+}
+
+#que-es h1{
+    text-align: center;
+}
+
+#que-es p{
+    text-align: center;
+}
+
+#creador p{
+    display: none;
+    
+}
+#creador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(219, 211, 211, 0.5),
+        rgba(0,0,0,0.5)
+    ),url(media/persona.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#creador .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    color: wheat;
+}
+
+#creador .autor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#creador h2{
+    margin: 0;
+}
+
+#casas {
+    margin: 10px 0;
+    background-color: #817e7ea1;
+    color: white;
+    padding: 10px;
+}
+
+#casas h3{
+    margin: 0;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#casas  p{
+    display: none;
+}
+
+#casas .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+#casas a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+#casas .images-casas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#casas .images-casas .cartas:nth-child(1) a{
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        0deg,rgba(54, 52, 52, 0.5),rgba(54, 52, 52, 0.5)
+    ),url('media/Lannister.webp');
+    background-size: cover;
+    background-position: center -30px;
+    
+}
+
+#casas  .images-casas .cartas:nth-child(2) a{
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        0deg,rgba(54, 52, 52, 0.5),rgba(54, 52, 52, 0.5)
+    ),url('media/stark.jpg');
+    background-size: cover;
+    background-position: center -30px;
+    
+}
+
+#casas .images-casas .cartas:nth-child(3) a{
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        0deg,rgba(54, 52, 52, 0.5),rgba(54, 52, 52, 0.5)
+    ),url('media/targaryen.jpg');
+    background-size: cover;
+    background-position: center -15px;
+    
+}
+
+#casas .cartas p{
+    display: none;
+}
+
+footer{
+  background-color: rgb(245,245,245);
+  padding: 20px 10px;
+  margin-top: 10px;
+}
+
+footer .container{
+  max-width: 1400px;
+  margin: 0 auto;              /* centra el contenedor */
+  display: flex;
+  justify-content: center;      /* centra horizontal */
+  align-items: center;          /* centra vertical */
+}
+
+footer p{
+  margin: 0;
+  color: #333;
+  font-size: 0.95em;
+}
+
+
+@media (min-width:700px){
+
+    header .container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: none;
+        padding: 0 40px;
+
+    }
+
+    header p{
+        padding: 0;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    header nav{
+        flex-direction: row;
+        align-items: center;
+        
+    }
+
+    header a{
+        padding: 10PX;
+    }
+
+
+    #que-es {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0 40px;
+
+    }
+    #que-es .container{
+
+        flex-direction: column;
+        height: 500px;
+        max-width: none;
+        margin: 0;
+        justify-content: center;
+        
+        padding-left: 10px;
+        
+
+    }
+
+    #que-es h1{
+        text-align: initial;
+        width: 500px;
+        font-size: 3.5em;
+        padding: 0;
+        margin: 0;
+  
+    }
+
+    #que-es p{
+        width: 500px;
+        font-size: 1.2em;
+        display: flex;
+        text-align: initial;    
+        
+    }
+
+    #que-es .image{
+        display: flex;
+        width: min(600px, 45vw);
+        height: 400px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(241, 168, 72, 0.5),
+            rgba(180, 175, 175, 0.5)
+        ),url('media/mapa.jpg');
+        background-size: cover;
+        background-position: center center;
+        border-radius: 30px;
+
+        
+    }
+
+    #creador{
+        background-image: none;
+        background-color: #e4e4e4;
+        display: flex;
+        height: auto;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        
+
+        
+    }
+
+    #creador .container h2{
+        font-size: 3.5em;
+    }
+
+    #creador .container{
+        color: rgb(245, 146, 110);
+        width: 500px;
+        text-align: initial;
+    }
+    #creador .container > p{
+        display: block ;
+        text-align: initial ;
+        color: black;
+    }
+
+    #creador .autor{
+        font-weight: bold;
+    }
+
+    #creador .image{
+
+        width: 500px;
+        height: 400px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(216, 210, 210, 0.5),
+            rgba(143, 142, 142, 0.5)
+        ),url('media/persona.jpg');
+
+        background-size: cover;
+        background-position: center center;
+        margin: 20px;
+
+        border-radius: 20px;
+        
+    } 
+    #casas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #casas p{
+        display: block;
+    }
+
+
+    #casas .container{
+        display: flex;
+        flex-direction: column;
+        max-width: none;
+        width: 100%;
+        max-width: 1500px;
+        text-align: justify ;
+        padding: 10px;
+    }
+
+    #casas .container h3{
+        margin: 20px;
+    }
+    #casas .images-casas{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #casas .images-casas .cartas{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        margin: 20px;
+        width: 300px;
+        background-color: #8d8c8cbd;
+        border-radius: 15px;
+    }
+
+    #casas .images-casas .cartas a{
+        text-decoration: underline;
+    
+    }
+
+    #casas .images-casas .cartas a:hover{
+        box-shadow: 0px 0px 30px;
+    
+    }
+
+    #casas .images-casas .cartas:nth-child(1) a:hover{
+        box-shadow: 0px 0px 30px coral;
+    
+    
+    }
+
+    #casas .images-casas .cartas:nth-child(3) a:hover{
+        box-shadow: 0px 0px 30px red;
+    
+    
+    }
+
+    #casas .images-casas .cartas p{
+        display: block;
+        margin: 20px;
+    }
+
+    
+
+    
+    
+
+    
+
+}
