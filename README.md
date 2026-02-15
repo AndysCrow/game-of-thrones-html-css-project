@@ -60,24 +60,13 @@ La responsividad está implementada únicamente con CSS, sin uso de librerías e
 
 ## 🚀 Demo en Vivo
 
-Si el proyecto está desplegado, colocar aquí el enlace:
+**PENDIENTE**
+```
+
 
 ```
 
-[https://tu-enlace-aqui.com](https://tu-enlace-aqui.com)
 
-```
-
----
-
-## 📖 Aprendizajes Clave
-
-- Uso práctico de `min-width` y `max-width` para control de diseño
-- Distribución de elementos con Flexbox
-- Creación de layouts completamente responsive
-- Importancia de una arquitectura CSS organizada
-
----
 
 ## 🧠 Enfoque
 
