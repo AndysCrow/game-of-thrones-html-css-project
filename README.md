@@ -1,4 +1,3 @@
-```markdown
 # 🐉 Game of Thrones – Proyecto HTML & CSS
 
 Proyecto front-end completamente responsive desarrollado únicamente con **HTML5** y **CSS3**.  
@@ -84,4 +83,3 @@ Si el proyecto está desplegado, colocar aquí el enlace:
 
 Proyecto desarrollado desde cero con énfasis en fundamentos.  
 Diseñado para demostrar dominio real de HTML y CSS sin depender de herramientas externas.
-```
