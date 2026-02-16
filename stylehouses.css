@@ -69,6 +69,7 @@ p{font-size: 1.2em;}
     --m2: url("stark/media/stark-miembro2.jpg");
     --m3: url("stark/media/stark-miembro3.jpg");
     --m4: url("stark/media/stark-miembro4.jpg");
+    --m5: url("stark/media/stark-miembro5.jpg");
 }
 
 /* Targaryen - Rojo/Negro */
@@ -363,6 +364,8 @@ footer p{
         flex-direction: row;
         justify-content: space-between;
         padding: 0 40px;
+        margin: 10px;
+        max-width: none;
     }
 
     header p{
@@ -478,6 +481,8 @@ footer p{
         padding: 60px 40px;
     }
 
+
+ 
     .grid-miembros{
         flex-direction: row;
         flex-wrap: wrap;
@@ -487,6 +492,10 @@ footer p{
     .carta-miembro{
         width: calc(50% - 15px);
         margin-bottom: 20px;
+    }
+
+    .carta-miembro h4{
+            -webkit-text-stroke: 1px black;
     }
 
     .imagen-miembro{
