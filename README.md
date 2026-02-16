@@ -60,9 +60,8 @@ La responsividad está implementada únicamente con CSS, sin uso de librerías e
 
 ## 🚀 Demo en Vivo
 
-**PENDIENTE**
 ```
-
+https://andyscrow.github.io/game-of-thrones-html-css-project/
 
 ```
 
